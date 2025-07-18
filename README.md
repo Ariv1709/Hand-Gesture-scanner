@@ -39,15 +39,22 @@ Install the required libraries:
 ```bash
 pip install opencv-python mediapipe pandas scikit-learn joblib
 
+```
 
-# 📁 Project Structure **
+# 📁 Project Structure 
 
 HandGestureML/
+
 ├── gesture_data.csv               # Dataset of hand signs
+
 ├── gesture.py                     # Dataset of hand signs
+
 ├── model.py                       # Train and save ML model
+
 ├── predict_gesture_live.py        # Real-time gesture prediction
+
 ├── gesture_model.pkl              # Trained ML model (generated after training)
+
 └── README.md
 
 
